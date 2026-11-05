@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aone-teammate-mesh"
+version = "0.1.0"
+authors = [
+  { name="Aamir Zameer", email="aamir@amz34.com" },
+]
+description = "Autonomous persistent AI coworker runtime & orchestration mesh"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Amz34/aone-teammate-mesh"
+"Bug Tracker" = "https://github.com/Amz34/aone-teammate-mesh/issues"
+
+[project.scripts]
+aone-teammate = "aone_teammate_mesh.cli:main"
+teammate = "aone_teammate_mesh.cli:main"
