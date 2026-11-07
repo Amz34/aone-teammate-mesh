@@ -231,3 +231,7 @@ OK (100% Passing)
 ## 📄 License
 
 Distributed under the [MIT License](LICENSE). Built for production engineers, AI researchers, and autonomous agent builders.
+
+---
+
+Part of [my always-on agent stack](https://github.com/Amz34) · [Awesome Agent Infrastructure](https://github.com/Amz34/awesome-agent-infrastructure) (135 live-checked building blocks).
